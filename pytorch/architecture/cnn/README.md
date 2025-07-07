@@ -2,7 +2,7 @@
 
 Based on the paper *"An Introduction to Convolutional Neural Networks"* by Keiron O’Shea and Ryan Nash.
 
-![CNN Overview](https://en.wikipedia.org/wiki/Convolutional_neural_network)
+[CNN Overview](https://en.wikipedia.org/wiki/Convolutional_neural_network)
 
 Convolutional Neural Networks (CNNs) are a class of deep neural networks primarily used in image recognition and classification. This project summarizes the concepts and components introduced in the referenced paper to help new learners understand the basics of CNNs.
 
@@ -69,7 +69,7 @@ Input(28 x 28)
 -> Output(10 digit classes)
 
 
-![MNIST](https://itp.uni-frankfurt.de/~gros/StudentProjects/WS22_23_DL_MNIST/DeepLearningMNIST.htm)
+[MNIST](https://itp.uni-frankfurt.de/~gros/StudentProjects/WS22_23_DL_MNIST/DeepLearningMNIST.htm)
 
 ## Building a CNN: Recommended Recipe
 
