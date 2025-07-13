@@ -4,3 +4,8 @@
 allowing individual threads to take potentially much longer time to execute .
 
 ![gpu image](https://docs.nvidia.com/cuda/cuda-c-programming-guide/_images/gpu-devotes-more-transistors-to-data-processing.png)
+
+
+The **GPU** is specialized for highly parallel computations and therefore designed such that more transistors are devoted to data processing rather than data caching and control flow .
+
+In general, an application has a mix of parallel parts and sequential parts, so systems are designed with a mix of **GPUs and CPUs** in order to maximize overall performance. Applications with a high degree of parallelism can exploit this massively parallel nature of the GPU to achieve higher performance than on the CPU.
