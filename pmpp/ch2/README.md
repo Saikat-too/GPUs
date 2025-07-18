@@ -181,7 +181,7 @@ The full global thread ID in x dimension can be computed by
 ### Calculation
 
 
-- 256  threads
+- 32 threads
 - 4 blocks
 - blockdDim.x = 8
 
