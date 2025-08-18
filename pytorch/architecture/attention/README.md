@@ -9,7 +9,7 @@ We have keys , value and query . These all are represented as vectors . Queries 
 
 
 
-# 🔹 Attention Mechanism (Readable in GitHub README.md)
+# 🔹 Attention Mechanism
 
 ### 1. Query, Key, and Value computation
 Q = X · W_Q
