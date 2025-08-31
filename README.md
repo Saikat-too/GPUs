@@ -13,6 +13,7 @@ This repository contains implementations and notes related to **GPU programming*
 - [PMPP (Parallel Memory Programming for GPUs)](#pmpp-parallel-memory-programming-for-gpus)
   - [Chapter 1: Introduction](#chapter-1-introduction)
   - [Chapter 2: Heterogeneous Data Parallel Computing](#chapter-2-heterogeneous-data-parallel-computing)
+  - [Chapter 3: Multidimensional Grids and Data](#chapter-3-multidimensional-grids-and-data)
 - [PyTorch Implementations](#pytorch-implementations)
   - [Basic Operations](#basic-operations)
   - [Neural Network Components](#neural-network-components)
@@ -38,6 +39,12 @@ This repository contains implementations and notes related to **GPU programming*
 - [x] CUDA memory management (`cudaMalloc`, `cudaFree`, `cudaMemcpy`)
 - [x] Example: Vector addition in CUDA
 - [x] CUDA thread basics and global thread ID calculation
+
+### ✔ Chapter 3: Multidimensional Grids and Data
+- [x] Using `dim3` for 2D grids and blocks
+- [x] Linearizing 2D arrays (row-major layout)
+- [x] Example: Matrix multiplication in CUDA
+- [x] Calculating global thread indices in 2D
 
 ---
 
