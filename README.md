@@ -10,7 +10,7 @@ This repository contains implementations and notes related to **GPU programming*
 ---
 
 ## 📖 Table of Contents
-- [PMPP (Parallel Memory Programming for GPUs)](#pmpp-parallel-memory-programming-for-gpus)
+- [PMPP (Programming Massively Parallel Processors)](#pmpp-parallel-memory-programming-for-gpus)
   - [Chapter 1: Introduction](#chapter-1-introduction)
   - [Chapter 2: Heterogeneous Data Parallel Computing](#chapter-2-heterogeneous-data-parallel-computing)
   - [Chapter 3: Multidimensional Grids and Data](#chapter-3-multidimensional-grids-and-data)
@@ -26,7 +26,7 @@ This repository contains implementations and notes related to **GPU programming*
 
 ---
 
-## 📘 PMPP (Parallel Memory Programming for GPUs)
+## 📘 PMPP (Programming Massively Parallel Processors)
 
 ### ✔ Chapter 1: Introduction
 - [x] Overview of CPU vs. GPU design philosophies (latency vs. throughput)
