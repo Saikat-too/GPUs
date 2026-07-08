@@ -123,7 +123,7 @@ __global__ void warp_divergence(int *d, int *even, int *odd){
     }
 }
 
-
+```
 
 ### Analyzing Divergence in a Grid
 
