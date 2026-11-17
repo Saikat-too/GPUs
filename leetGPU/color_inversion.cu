@@ -1,12 +1,15 @@
 #include <cuda_runtime.h>
 
 __global__ void invert_kernel(unsigned char* image, int width, int height) {
-     int idx = threadIdx.x + blockDim.x * blockIdx.x;
-     int total = width * height * 4;
-     unsigned char sub = 255;
-     if (idx < total && (idx & 3)!=3) {
-        image[idx] = sub-image[idx];
-     }
+    int id = threadIdx.x + blockDim.x * blockIdx.x;
+    int total = width * height;
+    unsigned char sub = 255;
+    id = 3 * id + id;
+    if (id < total * 4) {
+        image[id] = sub - image[id];
+        image[id + 1] = sub - image[id + 1];
+        image[id + 2] = sub - image[id + 2];
+    }
 }
 // image_input, image_output are device pointers (i.e. pointers to memory on the GPU)
 extern "C" void solve(unsigned char* image, int width, int height) {
